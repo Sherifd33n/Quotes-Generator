@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  background: red;
+  padding: 5px;
+  font-size: 1.1rem;
+  border: 2px solid red;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+button:hover {
+  transition: 0.3s;
+  background: rgb(94, 4, 4);
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(214, 198, 198);
+}
+
+.fa-quote-left img {
+  height: 1.8rem;
+  transition: rotate(90deg);
+}
+
+#quote {
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.quote-author {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.mine {
+  text-align: center;
+  background: rgb(219, 226, 226);
+  padding: 3%;
+  margin: 30%;
+}
